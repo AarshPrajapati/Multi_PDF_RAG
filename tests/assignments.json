@@ -1,0 +1,163 @@
+[
+  {
+    "topic": "machine learning types",
+    "difficulty": "intermediate",
+    "type": "mcq",
+    "questions": [
+      {
+        "question": "What does machine learning focus on?",
+        "options": {
+          "A": "Imitating the way humans learn using data and algorithms",
+          "B": "Creating explicit programming for tasks",
+          "C": "Developing hardware for AI",
+          "D": "Replacing human intelligence"
+        },
+        "correct_answer": "A",
+        "explanation": "Machine learning is defined as focusing on the use of data and algorithms to imitate human learning.",
+        "source_page": 32
+      },
+      {
+        "question": "What is deep learning a subset of?",
+        "options": {
+          "A": "Machine learning",
+          "B": "Artificial intelligence",
+          "C": "Data science",
+          "D": "Neural networks"
+        },
+        "correct_answer": "A",
+        "explanation": "Deep learning is specifically described as a subset of machine learning.",
+        "source_page": 44
+      },
+      {
+        "question": "How do additional hidden layers in a neural network affect its performance?",
+        "options": {
+          "A": "They help optimize and refine for accuracy",
+          "B": "They slow down the learning process",
+          "C": "They make predictions less accurate",
+          "D": "They eliminate the need for data"
+        },
+        "correct_answer": "A",
+        "explanation": "Additional hidden layers in a neural network are stated to help optimize and refine predictions for accuracy.",
+        "source_page": 44
+      }
+    ],
+    "sources": [
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 13
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 29
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 32
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 42
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 44
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  {
+    "topic": "artificial intelligence definition",
+    "difficulty": "beginner",
+    "type": "short",
+    "questions": [
+      {
+        "question": "What is the primary aim of artificial intelligence as described in the study material?",
+        "model_answer": "The primary aim of artificial intelligence is to create artificial systems that operate in a manner mimicking human intelligence. These systems are designed to think, learn, and function in ways that typically require human intelligence.",
+        "key_points": [
+          "Creating artificial systems",
+          "Mimicking human intelligence",
+          "Thinking and learning capabilities"
+        ],
+        "source_page": 19
+      },
+      {
+        "question": "What are the main technologies that AI consists of according to the provided material?",
+        "model_answer": "AI consists mainly of technologies rooted in machine learning and deep learning. These technologies are used for various applications, including data examination, future predictions, and processing natural language.",
+        "key_points": [
+          "Machine learning",
+          "Deep learning",
+          "Applications in data examination and predictions"
+        ],
+        "source_page": 19
+      }
+    ],
+    "sources": [
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 13
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 19
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 29
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 42
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 51
+      }
+    ],
+    "model": "gpt-4o-mini"
+  },
+  {
+    "topic": "future of AI and ethics",
+    "difficulty": "advanced",
+    "type": "essay",
+    "questions": [
+      {
+        "question": "Discuss the ethical implications of developing full artificial intelligence and its potential impact on humanity, as highlighted by Stephen Hawking.",
+        "guidance": "A good answer should cover the potential risks of AI surpassing human intelligence, the importance of ethical considerations in AI development, and the need for responsible governance of AI technologies.",
+        "key_themes": [
+          "ethical implications",
+          "impact on humanity",
+          "responsible governance"
+        ],
+        "suggested_length": "300-500 words",
+        "source_pages": [
+          51,
+          52,
+          19
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 5
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 19
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 32
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 51
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 52
+      }
+    ],
+    "model": "gpt-4o-mini"
+  }
+]

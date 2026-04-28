@@ -1,0 +1,18 @@
+# Environment
+.env
+
+# Storage (too large for GitHub)
+storage/
+tests/chunks.json
+
+# Python
+__pycache__/
+*.pyc
+*.pkl
+*.egg-info/
+
+# Data (PDFs are private)
+data/pdfs/
+
+# VS Code
+.vscode/

@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial intelligence (AI) is a scientific field that aims at creating artificial systems (such as software, robots, cars, and machines) that operate in a manner that mimics human intelligence. These systems can think, learn, and function in ways typically requiring human intelligence. AI merges various fields including computer science, data analysis, hardware and software development, language studies, brain science, as well as philosophical and psychological perspectives. It primarily consists of technologies rooted in machine learning and deep learning, which are employed for tasks such as data examination, future predictions, object classification, natural language processing, and smart data fetching, among others [Source 1: Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf, p. 19].",
+    "sources": [
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 19
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 13
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 42
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 29
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 51
+      }
+    ],
+    "model": "gpt-4o-mini",
+    "chunks_used": 5
+  },
+  {
+    "question": "What is the difference between machine learning and deep learning?",
+    "answer": "Machine learning is a branch of artificial intelligence that focuses on using data and algorithms to imitate human learning, gradually improving its accuracy without being explicitly programmed [Source 2, p. 32]. Deep learning, on the other hand, is a subset of machine learning that specifically involves neural networks with three or more layers. These deep neural networks attempt to simulate the behavior of the human brain and learn from large amounts of data, optimizing and refining predictions through additional hidden layers [Source 1, p. 44].",
+    "sources": [
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 44
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 32
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 29
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 13
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 42
+      }
+    ],
+    "model": "gpt-4o-mini",
+    "chunks_used": 5
+  },
+  {
+    "question": "Why is studying AI important?",
+    "answer": "Studying AI is crucial because it drives technological advancements, reshapes industries, offers solutions to complex global challenges, and prompts critical discussions on ethics and the future of humanity in an increasingly digital world [Source 1, p. 52].",
+    "sources": [
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 52
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 19
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 32
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 51
+      },
+      {
+        "source": "Lecture 1 (Introduction to AI, ML, DL, and the Course ).pdf",
+        "page": 13
+      }
+    ],
+    "model": "gpt-4o-mini",
+    "chunks_used": 5
+  }
+]
