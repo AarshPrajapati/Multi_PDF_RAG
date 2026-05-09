@@ -96,7 +96,7 @@ with st.sidebar:
     st.divider()
 
     if st.session_state.indexed:
-        st.success(f"✅ Index ready — {st.session_state.collection.count()} chunks")
+        st.success(f"✅ Index ready — {st.session_state.collection['index'].ntotal} chunks")
         pdfs = list(DATA_DIR.glob("*.pdf"))
         if pdfs:
             st.caption("Loaded PDFs:")
