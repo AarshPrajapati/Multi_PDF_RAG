@@ -204,8 +204,14 @@ def load_faiss_index():
     if not INDEX_FILE.exists():
         raise FileNotFoundError("FAISS index not found. Run indexer.py first.")
     index = faiss.read_index(str(INDEX_FILE))
-    with open(META_FILE, "r", encoding="utf-8") as f:
-        meta = json.load(f)
+    
+    # Handle missing metadata file gracefully (e.g., on fresh Streamlit Cloud deployment)
+    if META_FILE.exists():
+        with open(META_FILE, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+    else:
+        meta = []
+    
     return index, meta
 
 
@@ -249,8 +255,14 @@ def load_bm25_index():
         raise FileNotFoundError("BM25 index not found. Run indexer.py first.")
     with open(index_path, "rb") as f:
         bm25 = pickle.load(f)
-    with open(meta_path, "r", encoding="utf-8") as f:
-        meta = json.load(f)
+    
+    # Handle missing metadata file gracefully (e.g., on fresh Streamlit Cloud deployment)
+    if meta_path.exists():
+        with open(meta_path, "r", encoding="utf-8") as f:
+            meta = json.load(f)
+    else:
+        meta = []
+    
     return bm25, meta
 
 
